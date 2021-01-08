@@ -1,7 +1,9 @@
 # Grupo-De-Estudio-Linux-Bash
 ![Titulo](Sesion1_Que_es_Linux/Img/Titulo.jpg)
 
-Organización del contenido del grupo de estudio de Linux y Bash aplicados a bioinformática organizado por RSG Ecuador. El taller tiene como objetivo aprender sobre el uso de sistemas operativos Linux y de programación en lenguaje Bash. El taller se manejará como un grupo de estudio, en el que el se tendrán estudiantes encargados de dirigir las reuniones, pero la idea es construir el conocimiento con el apoyo de todos los participantes para aclarar dudas. Utilizaremos como referencia principal el libro *The Unix Workbench* de Sean Kross. El taller está diseñado para brindar conocimiento práctico que pueda ser utilizado en Bioinformática y programación.
+**Autores:** Juan Zurita, María Fernanda Arias, Sebastián Bermúdez, Camila Armas, Francisco Sigcho, Jean Pierre Ramos, Sebastián Ayala
+
+Organización del contenido del **grupo de estudio de Linux y Bash aplicados a Bioinformática** organizado por RSG Ecuador. El taller tiene como objetivo aprender sobre el uso de sistemas operativos Linux y de programación en lenguaje Bash. El taller se manejará como un grupo de estudio, en el que el se tendrán estudiantes encargados de dirigir las reuniones, pero la idea es construir el conocimiento con el apoyo de todos los participantes para aclarar dudas. Utilizaremos como referencia principal el libro [*The Unix Workbench*](https://leanpub.com/unix) de Sean Kross. El taller está diseñado para brindar conocimiento práctico que pueda ser utilizado en Bioinformática y programación.
 
 Contenido del grupo de estudio: 
 
@@ -13,6 +15,6 @@ Contenido del grupo de estudio:
 6. Bash scripting
 7. Git, GitHub y manejo de versiones
 
-En este reporsitorio se encuentra un libro que hemos colectado con información útil y varios ejercicios para aprender a usar Linux en el contexto de bioinformática. El libro es de libre uso. 
+En este reporsitorio se encuentra un libro que hemos colectado con información útil y varios ejercicios sobre el tema mencionado. Estos recursos son de libre acceso.
 
-Hemos escogido usar jupyter notebooks para la redacción de este libro. Trabajamos de forma estándar usando un kernel de Bash para jupyter y la distribución de Anaconda para Linux con Python 3. En la carpeta de **setup** se encuentra un notebook con los pasos que usamos para configurar los ambientes de trabajo.
+Hemos escogido usar Jupyter notebooks para la redacción de este libro. Trabajamos de forma estándar usando un kernel de Bash para jupyter y la distribución de Anaconda para Linux con Python 3. En la carpeta de **setup** se encuentra un notebook con los pasos para configurar los ambientes de trabajo.
