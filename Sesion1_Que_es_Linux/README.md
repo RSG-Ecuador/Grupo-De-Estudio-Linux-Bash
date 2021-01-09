@@ -8,4 +8,4 @@ Muchas gracias por estudiar con nosotros! :)
 
 Saludos,
 
-Equipo de RSG
+Equipo del RSG Ecuador
