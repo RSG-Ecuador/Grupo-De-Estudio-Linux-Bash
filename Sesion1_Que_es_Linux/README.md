@@ -1,13 +1,7 @@
-# Instrucciones para los deberes y quizes
+# Instrucciones primera sesión
 
-Para ver la presentación de la reunión ingresen a `./Semana1_que_es_UNIX.ipynb`
+Para ver la presentación de la reunión pueden usar el notebook `./Semana1_que_es_UNIX.ipynb` o pueden descargar el repositorio y abrir los archivos `./Semana1_que_es_UNIX.html` o `./Semana1_que_es_UNIX.slides.html`. 
 
-Por favor abran el archivo `./deberes/jupyter.ipynb` y sigan las instrucciones del final.
+En el archivo `./deberes/jupyter.ipynb` hay información detallada sobre los *Jupyter notebooks*, que será la interfaz de scripting que usaremos en el grupo de estudio. Además, esto servirá como estándar para la presentación de deberes y guías que usaremos en el grupo de estudio. Por favor, sigan estas instrucciones. Si descargan el repositorio también podrán abrir el archivo `./deberes/jupyter.html` y visualizar esta presentación. 
 
-Muchas gracias por estudiar con nosotros! :)
-
-Este es el link al quiz de esta semana https://forms.gle/44RriX78s1jjifP89. En las preguntas de desarrollo, parece que google Forms  está quitando puntos a todos, sea cual sea la respuesta. No se desanimen. Para el siguiente quiz ya tendremos solucionado eso. :sunglasses: Suerte! 
-
-Saludos,
-
-Equipo del RSG Ecuador
+Muchas gracias por estudiar con nosotros!
