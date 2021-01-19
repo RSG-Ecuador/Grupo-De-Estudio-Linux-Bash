@@ -1,0 +1,36 @@
+Antigua y Barbuda Saint John's
+Argentina Buenos Aires
+Bahamas Nasáu
+Barbados Bridgetown
+Belice Belmopán
+Bolivia Sucre
+Brasil Brasilia 100
+Canadá Ottawa
+Chile Santiago de Chile
+Colombia Bogotá
+Costa Rica San José
+Cuba La Habana
+Dominica Roseau
+Ecuador Quito
+El Salvador San Salvador
+Estados Unidos Washington D. C.
+Granada Saint George
+Guatemala Ciudad de Guatemala
+Guyana Georgetown
+Haití Puerto Príncipe
+Honduras Tegucigalpa
+Jamaica Kingston
+México Ciudad de México
+Nicaragua Managua
+Panamá Panamá
+Paraguay Asunción
+Perú Lima
+República Dominicana Santo Domingo
+San Cristóbal y Nieves Basseterre
+San Vicente y las Granadinas Kingstown
+Santa Lucía Castries
+Surinam Paramaribo
+Trinidad y Tobago Puerto España
+Uruguay Montevideo
+Venezuela Caracas
+
