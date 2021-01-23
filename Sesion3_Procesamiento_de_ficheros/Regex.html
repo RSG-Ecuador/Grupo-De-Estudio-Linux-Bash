@@ -10,10 +10,10 @@
 
 <style type="text/css">
     pre { line-height: 125%; margin: 0; }
-td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
 .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
 .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
 .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
@@ -14275,7 +14275,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="grep.png"></p>
+<p><img src="imagenes/grep.png"></p>
 
 </div>
 </div>
@@ -14730,7 +14730,7 @@ P<span class="ansi-red-intense-fg ansi-bold">ara</span>guay
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-bash"><pre><span></span>Nota: tomar en cuenta que la expresión <span class="s2">&quot;t{2}&quot;</span> es igual a la expresión regular <span class="s2">&quot;aa&quot;</span>
+<div class=" highlight hl-bash"><pre><span></span>Nota: tomar en cuenta que la expresión <span class="s2">&quot;t{2}&quot;</span> es igual a la expresión regular <span class="s2">&quot;tt&quot;</span>
 </pre></div>
 
      </div>
@@ -14823,7 +14823,7 @@ P<span class="ansi-red-intense-fg ansi-bold">ara</span>guay
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-bash"><pre><span></span>egrep <span class="s2">&quot;(Gua.+{1}){2}&quot;</span> archivo.txt
@@ -15598,7 +15598,7 @@ República Dominicana <span class="ansi-red-intense-fg ansi-bold">San</span>to D
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="tabla_regex.png"></p>
+<p><img src="imagenes/tabla_regex.png"></p>
 
 </div>
 </div>
@@ -15609,7 +15609,7 @@ República Dominicana <span class="ansi-red-intense-fg ansi-bold">San</span>to D
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="secuencias.png"></p>
+<p><img src="imagenes/secuencias.png"></p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15774,10 +15774,10 @@ GGAGGCCCGGCCGGCTCCAGCCCACCATGTCAACCCCCCTCTCACA<span class="ansi-red-intense-fg a
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-bash"><pre><span></span>egrep <span class="s2">&quot;A.CCTCAAGCG&quot;</span> secuencias.fasta
+<div class=" highlight hl-bash"><pre><span></span>egrep <span class="s2">&quot;CGT.........CCTCAAGCG&quot;</span> secuencias.fasta
 </pre></div>
 
      </div>
@@ -15797,36 +15797,31 @@ GGAGGCCCGGCCGGCTCCAGCCCACCATGTCAACCCCCCTCTCACA<span class="ansi-red-intense-fg a
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>AGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCGGTCGTCCCCCCTCAACCGGCGGGACGTGC
-CTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGG
-CTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGG
-TTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGGGACGTGCCCGAAAT
-TCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCC
-TTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCC
-CGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCC
-GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCT
-GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCT
-GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCT
-GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCT
-CGCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGC
-CGCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGC
-GCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGGGACGTGCCCGAAATGC
-ATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTATTGGGCCGTCGTCCCCCCTTCGACCGGCGGGGACGTGCCCGA
-TCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCC
-TGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGT
-CATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGGGGCGTGCCCGAA
-A<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGGGACGTGCCCGAAATGCAG
-CATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGT
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
-CGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCCC
-CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+<pre>AG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCGGTCGTCCCCCCTCAACCGGCGGGACGTGC
+CTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGG
+CTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCCCCTCGACCGGCGG
+TCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCC
+TTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCC
+CGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGTCGTCCCC
+GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCT
+GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCT
+GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCT
+GCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCT
+CGCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGC
+CGCACATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGC
+TCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCC
+TGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCGT
+CATTGCGCCCCCTGGTATTCCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGT
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
+CGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCCC
+CCGGGGGGCATGCCTGTCCGAG<span class="ansi-red-intense-fg ansi-bold">CGTCATTGCAACCCTCAAGCG</span>CGGCTTGTGTGTTGGGCCATCGTCCCC
 </pre>
 </div>
 </div>
@@ -15879,20 +15874,14 @@ CCGGGGGGCATGCCTGTCCGAGCGTCATTGCA<span class="ansi-red-intense-fg ansi-bold">ACCC
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-bash"><pre><span></span>- Buscar en el archivo dos secuencias <span class="s2">&quot;ATGGGGCTTT&quot;</span> y <span class="s2">&quot;CCCCGCCCC&quot;</span> a la vez
-</pre></div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>Buscar en el archivo dos secuencias "ATGGGGCTTT" y "CCCCGCCCC" a la vez </li>
+</ul>
 
-     </div>
 </div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
