@@ -17,4 +17,4 @@ Contenido del grupo de estudio:
 
 En este reporsitorio se encuentra un libro que hemos colectado con información útil y varios ejercicios sobre el tema mencionado. Estos recursos son de libre acceso.
 
-Hemos escogido usar Jupyter notebooks para la redacción de este libro. Trabajamos de forma estándar usando un kernel de Bash para jupyter y la distribución de Anaconda para Linux con Python 3. En la carpeta setup-conda` se encuentra un notebook con los pasos para configurar los ambientes de trabajo.
+Hemos escogido usar Jupyter notebooks para la redacción de este libro. Trabajamos de forma estándar usando un kernel de Bash para jupyter y la distribución de Anaconda para Linux con Python 3. En la carpeta `setup-conda` se encuentra un notebook con los pasos para configurar los ambientes de trabajo.
