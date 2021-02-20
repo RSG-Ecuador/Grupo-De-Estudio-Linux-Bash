@@ -1,5 +1,5 @@
 # Grupo De Estudio Linux-Bash
-![Titulo](Sesion1_Que_es_Linux/Img/Titulo.jpg)
+![Titulo](Sesion1_Que_es_Linux/img/Titulo.jpg)
 
 **Autores:** Juan Zurita, María Fernanda Arias, Sebastián Bermúdez, Camila Armas, Francisco Sigcho, Jean Pierre Ramos, Sebastián Ayala
 
