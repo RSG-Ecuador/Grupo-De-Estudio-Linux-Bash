@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
-# File: printrectangle.sh
-echo "Ingrese el valor de altura: "
-read m
-echo "Ingrese el valor de base: "
-read n
-for((i=0; i<m; i=i+1))
+
+echo "Ingrese el valor de la altura"
+read a
+echo "Ingrese el valor de la base: "
+read b
+
+for(( i=0; i<a; i++ ))
 do
-    for((j=0; j<n; j=j+1))
+    for(( j=0; j<b; j++ ))
     do
-        if (( i==0 )) || (( i==m-1 )) || (( j==0 )) || (( j==n-1 ))
+        if (( i==0 )) || (( i==a-1 )) || (( j==0 )) || (( j==b-1 ))
         then
             echo -n "*"
         else
             echo -n " "
-        fi  
+        fi
     done
     printf "\n"
-done
-
+done 
 

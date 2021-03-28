@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 # File: whileloop_factorial.sh
-counter=$1
-factorial=1
-while [ $counter -gt 0 ]
+
+num=$1
+fact=1
+
+while [[ $num>0 ]]
 do
-   factorial=$(($factorial * $counter))
-   counter=$(($counter - 1))
+    let fact=$(( $fact* $num ))
+    let num=num-1
 done
-echo El numero es $factorial
+
+echo "El factorial es $fact"
