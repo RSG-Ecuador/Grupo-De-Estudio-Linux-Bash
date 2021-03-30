@@ -1,24 +1,19 @@
-#!/usr/bin/env bash
-# File: whileloop_factorial.sh
-<<<<<<< HEAD
-
-num=$1
-fact=1
-
-while [[ $num>0 ]]
-do
-    let fact=$(( $fact* $num ))
-    let num=num-1
-done
-
-echo "El factorial es $fact"
-=======
-counter=$1
-factorial=1
-while [ $counter -gt 0 ]
-do
-   factorial=$(($factorial * $counter))
-   counter=$(($counter - 1))
-done
-echo El numero es $factorial
->>>>>>> d260f32b394aceaf7483651d0b4c8be06f81209a
+#!/usr/bin/env bash   
+# File: printrectangle.sh   
+echo   Ingrese el valor de altura:      
+read m   
+echo   Ingrese el valor de base:      
+read n   
+for((i=0; i<m; i=i+1))   
+do   
+    for((j=0; j<n; j=j+1))   
+    do   
+        if (( i==0 )) || (( i==m-1 )) || (( j==0 )) || (( j==n-1 ))   
+        then   
+            echo -n   "*"     
+        else   
+            echo -n   " "      
+        fi     
+    done   
+    printf "\n"          
+done  
